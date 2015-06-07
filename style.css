@@ -1,5 +1,9 @@
 /******** LAYOUT & GENERIC CLASSES ********/
 
+.white-font{
+	color: #FFFFFF;
+}
+
 /* basic elements styling or re-styling (boostap) */
 body {padding-bottom: 40px;}
 #content {background-color: #fff;}
@@ -46,9 +50,9 @@ hr {border-top: 1px solid #eee;border-bottom: 1px solid #fcfcfc;}
 
 /* personal info block */
 #personal-information h2 {margin-bottom: 10px;}
-.infoline {padding: 0; overflow: hidden; border-bottom: 1px solid #eee; border-top: 1px solid #fcfcfc; padding-top: 15px; padding-bottom: 15px;}
-.infoline.first {border-top: none!important;}
-.infoline.last {border-bottom: none!important;}
+.infoline {padding: 0; overflow: hidden; border-bottom: 1px solid red; border-top: 1px solid #fcfcfc; padding-top: 15px; padding-bottom: 15px;}
+.infoline.first {border-top: red;}
+.infoline.last {border-bottom: red;}
 
 /* helpers */
 .clear {display: block; clear: both; width: 100%; height: 0; line-height: 0;}
@@ -146,7 +150,7 @@ body.dark {color:#eee; background: #1b1b1b;}
 .dark .pager li > a, .dark .pager li > span {background: #111; border-color: #000;}
 .dark .pager li > a:hover {background-color: #000;}
 .dark legend {color:#eee;}
-.dark .infoline { border-bottom: 1px solid #111; border-top: 1px solid #222;}
+.dark .infoline { border-bottom: 1px solid red; border-top: 1px solid #222;}
 .dark .well {background: #222; border-color: #000;}
 .dark .timeline-item-content {border-color: #000;background-color: #222;}
 .dark .timeline-arrow i {background: #222; border-left: 1px solid #000; border-top: 1px solid #000;}
