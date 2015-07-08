@@ -307,8 +307,8 @@ body.dark {color:#eee; background: #1b1b1b;}
 	}
 	.timeline-item-content {margin-bottom: 0; padding: 5px 20px;}
 	.timeline-item-trigger {padding-top: 0; margin: 10px 0 15px;}
-	.timeline-item-date {background:#474; color: #ccc; padding: 5px 0; margin-top: 0;}
-	.dark .timeline-item-date {background:#474; color: #ccc;}
+	.timeline-item-date {background:#474747; color: #ccc; padding: 5px 0; margin-top: 0;}
+	.dark .timeline-item-date {background:#474747; color: #ccc;}
 	.section .section-title {border-right: none!important;}
 	.timeline-arrow {text-align: center; height: 0;}
 	.timeline-arrow i {
